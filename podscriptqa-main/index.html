@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PodScriptQA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>PodScriptQA</h1>
+        <div class="upload-area">
+            <input type="file" id="podcastUpload" hidden />
+            <button id="uploadBtn">Upload and Transcribe</button>
+        </div>
+        <div id="transcriptionStatus">Transcription status: Not started</div>
+        <div class="chat-box">
+            <div id="chatWindow" class="chat-window"></div>
+            <textarea id="chatInput" placeholder="Ask a question..."></textarea>
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
