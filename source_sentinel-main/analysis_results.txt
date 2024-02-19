@@ -1,0 +1,15 @@
+Analysis for temp_repos\image-to-sound-python-.git\app.py:
+************* Module app
+temp_repos\image-to-sound-python-.git\app.py:25:0: C0304: Final newline missing (missing-final-newline)
+temp_repos\image-to-sound-python-.git\app.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+temp_repos\image-to-sound-python-.git\app.py:1:0: E0401: Unable to import 'PIL' (import-error)
+temp_repos\image-to-sound-python-.git\app.py:2:0: E0401: Unable to import 'gtts' (import-error)
+temp_repos\image-to-sound-python-.git\app.py:3:0: E0401: Unable to import 'pytesseract' (import-error)
+temp_repos\image-to-sound-python-.git\app.py:18:11: W0718: Catching too general exception Exception (broad-exception-caught)
+temp_repos\image-to-sound-python-.git\app.py:6:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
+
+
