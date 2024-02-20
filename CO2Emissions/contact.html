@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CO2 Emissions</title>
+
+	<style>
+
+	header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+	footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+	#divContact {
+		width:800px;
+		height:500px;
+		align-items: center;
+		margin:0 auto;
+		margin-top:10px;
+		padding: 40px;
+		margin-left:450px;
+	}
+
+
+	body {
+		background-image: url("C:/Users/ysaiv/Downloads/emissions.jpg");
+		background-size: 100% 95%;
+  		background-repeat: no-repeat;
+  		background-position: center center;
+           	background-attachment: fixed; 
+            	margin: 0; 
+	}
+
+	.btnStyles {
+		display: inline-block;
+  		background-color: #004f98;
+  		color: white;
+  		padding: 10px 20px;
+  		border: 1px solid #007bff;
+  		text-decoration: none;
+  		cursor: pointer;
+  		transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+	}
+
+	.btnStyles:hover {
+  		background-color: #0069d9;
+  		color: #fff;
+	}
+
+	.btnStyles:active {
+  		background-color: #0056b3;
+  		color: #fff;
+	}
+
+	#btnPost {
+		margin-left:50px;
+		padding:10px 20px;
+	}
+	#homeLink {
+		margin-left:50px;
+	}
+
+	</style>
+
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script>
+	
+	function postComments()
+	{
+		if($('#comments').val().trim() != '')	
+			alert("Your comment posted! check inbox for updates.");
+	};
+	</script>
+
+</head>
+<body>
+
+	<header>
+		<h1>CO2 EMISSIONS</h1>
+	</header>
+
+	<div id="divContact">
+
+	<h2>For queries, contact admin.</h2>	
+	<h3>2859339@vikes.csuohio.edu</h3>
+	<h3>2845899@vikes.csuohio.edu</h3>
+
+	<label for="comments"><b>Questions or Comments:</b></label><br><br>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here..." rows="4" cols="50"></textarea> 
+
+	<br><br>
+
+	<button id="btnPost" class="btnStyles" onclick="postComments()">Post</button>
+
+	<a href="home.html" id="homeLink" class="btnStyles">Back to Home</a>
+	
+
+	</div>
+
+	<footer>
+        	<p>CO2 Emissions - Implemented by Group 8. All rights reserved!</p>
+    	</footer>
+	
+</body>
+</html>
